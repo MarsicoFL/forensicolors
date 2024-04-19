@@ -6,7 +6,12 @@ Authors@R:
            family = "Marsico",
            role = c("aut", "cre"),
            email = "franco.lmarsico@gmail.com",
-           comment = c(ORCID = "0000-0002-0740-5516"))
+           comment = c(ORCID = "0000-0002-0740-5516"),
+    person(given = "Thore",
+           family = "Egeland",
+           role = c("aut", "cre"),
+           email = "thore.egeland@gmail.com",
+           comment = c(ORCID = "")))
 Description: 
 License: GPL (>= 3)
 Encoding: UTF-8
