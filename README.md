@@ -1,7 +1,7 @@
 # forensicolors
-Download this folder, unzip, and open .Rproj file with Rstudio.
+Download this folder, unzip, and open forensicolors.Rproj file with Rstudio.
 
-There execute the following command:
+There execute the following commands:
 
 ```r
 library(devtools)
