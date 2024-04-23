@@ -2,16 +2,14 @@ Package: forensicolors
 Title: Forensic Colors
 Version: 1.0.0
 Authors@R: 
-    person(given = "Franco",
+   c(person(given = "Franco",
            family = "Marsico",
            role = c("aut", "cre"),
-           email = "franco.lmarsico@gmail.com",
-           comment = c(ORCID = "0000-0002-0740-5516"),
-    person(given = "Thore",
+           email = "franco.lmarsico@gmail.com"),
+     person(given = "Thore",
            family = "Egeland",
-           role = c("aut", "cre"),
-           email = "thore.egeland@gmail.com",
-           comment = c(ORCID = "")))
+           role = c("aut"),
+           email = "thore.egeland@gmail.com"))
 Description: 
 License: GPL (>= 3)
 Encoding: UTF-8

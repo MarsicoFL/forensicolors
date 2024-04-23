@@ -1,4 +1,4 @@
-#' Compute Conditioned Proportions for Likelihood Assessment
+#' Compute Conditioned Proportions for UPs
 #'
 #' This function calculates the conditioned proportions 
 #' for pigmentation traits for UP, when UP is MP.
@@ -45,7 +45,10 @@ conditionedProp <- function(data, h, s, y, eh, es, ey) {
             numerators[i] <- eh * es * ey
         }
     }
-    
-    return(numerators)
+    probs <- as.data.frame(cbind(data, numerators))
+    probs <- unique(probs)
+
+   probs$numerators <- probs$numerators / sum(probs$numerators)
+    return(probs)
 }
 
