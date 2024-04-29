@@ -19,8 +19,8 @@ The densities are shown for two hypotheses, H1 and H2.
 }
 \examples{
 data <- forensicolors::simRef()
-conditioned <- conditionedProp(data, 1, 1, 1, 0.01, 0.01, 0.01) 
-unconditioned <- forensicolors::refProp(data)
-likelihoods <- forensicolors::compute_LRs(conditioned, unconditioned) 
+conditioned <- conditionedProp(data, 1, 1, 1, 0.01, 0.01, 0.01)
+unconditioned <- forensicolors:::refProp(data)
+likelihoods <- forensicolors:::compute_LRs(conditioned, unconditioned)
 plotLR(likelihoods)
 }

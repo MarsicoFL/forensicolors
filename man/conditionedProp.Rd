@@ -32,6 +32,3 @@ for pigmentation traits for UP, when UP is MP.
 It considers error rates for observations
 of hair color, skin color, and eye color.
 }
-\examples{
-conditionedProp(data, 1, 1, 1, 0.01, 0.01, 0.01) # Calculate numerators for given MP characteristics and error rates.
-}

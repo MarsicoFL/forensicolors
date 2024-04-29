@@ -4,10 +4,12 @@
 \alias{simRef}
 \title{Generate Reference Properties for a Hypothetical Population}
 \usage{
-simRef(n = 1000)
+simRef(n = 1000, seed = 1234)
 }
 \arguments{
 \item{n}{The number of individuals in the simulated population.}
+
+\item{seed}{Selected seed for simulations.}
 }
 \value{
 A \code{data.frame} with three columns: hair_colour, skin_colour, and eye_colour,

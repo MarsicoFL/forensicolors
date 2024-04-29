@@ -9,9 +9,9 @@
 #' @import ggplot2
 #' @examples
 #' data <- forensicolors::simRef()
-#' conditioned <- conditionedProp(data, 1, 1, 1, 0.01, 0.01, 0.01) 
-#' unconditioned <- forensicolors::refProp(data)
-#' likelihoods <- forensicolors::compute_LRs(conditioned, unconditioned) 
+#' conditioned <- conditionedProp(data, 1, 1, 1, 0.01, 0.01, 0.01)
+#' unconditioned <- forensicolors:::refProp(data)
+#' likelihoods <- forensicolors:::compute_LRs(conditioned, unconditioned)
 #' plotLR(likelihoods)
 #' @export
 plotLR <- function(data) {
@@ -19,7 +19,9 @@ plotLR <- function(data) {
   if (!all(required_cols %in% names(data))) {
     stop("Dataframe must contain LR, numerators, and f_h_s_y columns")
   }
-  
+ 
+  log10_LR <- Condition <- NA
+
   data$log10_LR <- log10(data$LR)
   
   weights_h1 <- round(data$numerators / min(data$numerators))

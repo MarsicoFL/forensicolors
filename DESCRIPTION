@@ -10,11 +10,11 @@ Authors@R:
            family = "Egeland",
            role = c("aut"),
            email = "thore.egeland@gmail.com"))
-Description: 
+Description: An open source software package written in R statistical language. It consist in a set of tools to compute likelihood ratios based on pigmentation traits. Also, it allows computing conditional probabilities for unidentified individuals based on missing person characteristics. A set of tailored plots are incoporated to analyze likelihood ratio distributions.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
-Imports: forrel, pedtools, plotly, dplyr,  ggplot2, shiny
+Imports: forrel, pedtools, plotly, dplyr,  ggplot2
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 URL: https://github.com/MarsicoFL/forensicolors

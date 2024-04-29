@@ -6,6 +6,7 @@
 #' can be adjusted by the user.
 #'
 #' @param n The number of individuals in the simulated population.
+#' @param seed Selected seed for simulations.
 #' @return A \code{data.frame} with three columns: hair_colour, skin_colour, and eye_colour,
 #' each representing the respective characteristics of each individual in the sample population.
 #' The hair color is simulated based on predefined probabilities, and skin and eye colors
@@ -14,8 +15,8 @@
 #' @examples
 #' simRef(1000) # Generates a data frame with 1000 entries based on the defined distributions.
 #' @export
-simRef <- function(n = 1000) {
-  set.seed(123)
+simRef <- function(n = 1000, seed = 1234) {
+  set.seed(seed)
 
   prob_hair <- c(0.4, 0.3, 0.15, 0.1, 0.05)
 

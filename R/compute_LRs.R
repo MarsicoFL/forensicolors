@@ -9,6 +9,7 @@
 #' @param unconditioned A dataframe with at least the columns 'hair_colour', 'skin_colour',
 #' 'eye_colour', and 'f_h_s_y'.
 #' @return A dataframe with the merged data and computed LRs.
+#' @export
 #' @examples
 #' data <- simRef()
 #' conditioned <- conditionedProp(data, 1, 1, 1, 0.01, 0.01, 0.01) 

@@ -16,8 +16,6 @@
 #' These values are calculated based on the probability of observing the given combination
 #' of characteristics in the MP, compared to each UP.
 #'
-#' @examples
-#' conditionedProp(data, 1, 1, 1, 0.01, 0.01, 0.01) # Calculate numerators for given MP characteristics and error rates.
 #' @export
 conditionedProp <- function(data, h, s, y, eh, es, ey) {
     numerators <- numeric(nrow(data))
