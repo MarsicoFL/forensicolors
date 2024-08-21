@@ -1,7 +1,7 @@
 <!-- badges: start -->
 
-[![CRAN status](https://www.r-pkg.org/badges/version/mispitools)](https://CRAN.R-project.org/package=forensicolors)
-[![](https://cranlogs.r-pkg.org/badges/grand-total/mispitools?color=blue)](https://cran.r-project.org/package=forensicolors)
+[![CRAN status](https://www.r-pkg.org/badges/version/forensicolors)](https://CRAN.R-project.org/package=forensicolors)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/forensicolors?color=blue)](https://cran.r-project.org/package=forensicolors)
 
 <!-- badges: end -->
 
