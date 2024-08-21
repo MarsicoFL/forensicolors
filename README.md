@@ -1,12 +1,18 @@
+<!-- badges: start -->
+
+[![CRAN status](https://www.r-pkg.org/badges/version/mispitools)](https://CRAN.R-project.org/package=forensicolors)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/mispitools?color=blue)](https://cran.r-project.org/package=forensicolors)
+
+<!-- badges: end -->
+
+
 # forensicolors
 An open source software package written in R statistical language. It consist in a set of tools to compute likelihood ratios based on pigmentation traits. Also, it allows computing conditional probabilities for unidentified individuals based on missing person characteristics. A set of tailored plots are incoporated to analyze likelihood ratio distributions.
 
 
 There execute the following commands to run a pilot analysis:
 ```r
-install.packages("devtools")
-library(devtools)
-install_github("MarsicoFL/forensicolors")
+install.packages("forensicolors")
 library(forensicolors)
 
 data <- forensicolors::simRef()
@@ -16,5 +22,3 @@ likelihoods <- compute_LRs(conditioned, unconditioned)
 
 plotLR(likelihoods)
 ```
-
-Soon, you will be able to download it from CRAN.
